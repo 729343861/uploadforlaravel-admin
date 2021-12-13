@@ -1,6 +1,6 @@
 {
     "name": "uploadforlaravel-admin/bigfile",
-    "description": "description...",
+    "description": "一款用于laravel-admin的分片上传组件,储存对象是七牛云",
     "type": "library",
     "keywords": ["laravel-admin", "extension"],
     "homepage": "https://github.com/laravel-admin-ext/bigfile",

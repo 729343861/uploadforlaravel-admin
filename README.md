@@ -24,3 +24,6 @@
             ]
         ]
     ],`
+### Use
+
+`  $form->bigfile('field_name')->options(['chunk_size'=> 3 * 1024 * 1024 ,'max_size'=> 5 * 1024 * 1024,'ext'=> ['exe']]);`
