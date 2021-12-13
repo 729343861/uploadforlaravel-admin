@@ -1,0 +1,34 @@
+{
+    "name": "uploadforlaravel-admin/bigfile",
+    "description": "一款用于laravel-admin的分片上传组件,储存对象是七牛云",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension"],
+    "homepage": "https://github.com/laravel-admin-ext/bigfile",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yangwenqu",
+            "email": "729343861@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6",
+        "zgldh/qiniu-laravel-storage": "^0.10.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Encore\\bigfile\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Encore\\bigfile\\BigFileServiceProvider"
+            ]
+        }
+    }
+}
