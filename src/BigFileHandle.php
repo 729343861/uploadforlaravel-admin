@@ -65,6 +65,7 @@ class BigFileHandle extends Field
 
     public function render()
     {
+
         $config = (array) BigFile::config('config');
         $this->addVariables([
             'host'       => $config['host'],
@@ -94,11 +95,11 @@ class BigFileHandle extends Field
 
         })
         $("#cancelUpload").click(function(){
+
              window.subscription.unsubscribe() // 上传取消
         })
 
         var uoloadHandle = (function(e){
-
             $("#cancelUpload").show();
             var fileObj = document.getElementById("bigfile").files[0]; // js 获取文件对象
             var fileName = fileObj.name;

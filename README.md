@@ -22,6 +22,8 @@
             'config' => [
                 //file Host
                 'host'=> 'http://www.baidu.cn/'
+                'prefix'=> 'file'
+
             ]
         ]
     ],`
